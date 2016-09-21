@@ -13,6 +13,8 @@
 		B96BCFB91D92378700D43325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96BCFB71D92378700D43325 /* Main.storyboard */; };
 		B96BCFBB1D92378700D43325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96BCFBA1D92378700D43325 /* Assets.xcassets */; };
 		B96BCFBE1D92378700D43325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96BCFBC1D92378700D43325 /* LaunchScreen.storyboard */; };
+		B96BCFC81D923ACE00D43325 /* HJAvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B96BCFC71D923ACE00D43325 /* HJAvatarBrowser.m */; };
+		B96BCFCC1D925DB700D43325 /* BTToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B96BCFCB1D925DB700D43325 /* BTToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		B96BCFBA1D92378700D43325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96BCFBD1D92378700D43325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B96BCFBF1D92378700D43325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96BCFC61D923ACE00D43325 /* HJAvatarBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJAvatarBrowser.h; sourceTree = "<group>"; };
+		B96BCFC71D923ACE00D43325 /* HJAvatarBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJAvatarBrowser.m; sourceTree = "<group>"; };
+		B96BCFCA1D925DB700D43325 /* BTToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTToast.h; sourceTree = "<group>"; };
+		B96BCFCB1D925DB700D43325 /* BTToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 		B96BCFA21D92378700D43325 = {
 			isa = PBXGroup;
 			children = (
+				B96BCFC91D925DAC00D43325 /* BTToast */,
+				B96BCFC51D923ACE00D43325 /* HJAvatarBrowser */,
 				B96BCFAD1D92378700D43325 /* ProgramCode */,
 				B96BCFAC1D92378700D43325 /* Products */,
 			);
@@ -77,6 +85,24 @@
 				B96BCFAF1D92378700D43325 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B96BCFC51D923ACE00D43325 /* HJAvatarBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B96BCFC61D923ACE00D43325 /* HJAvatarBrowser.h */,
+				B96BCFC71D923ACE00D43325 /* HJAvatarBrowser.m */,
+			);
+			path = HJAvatarBrowser;
+			sourceTree = "<group>";
+		};
+		B96BCFC91D925DAC00D43325 /* BTToast */ = {
+			isa = PBXGroup;
+			children = (
+				B96BCFCA1D925DB700D43325 /* BTToast.h */,
+				B96BCFCB1D925DB700D43325 /* BTToast.m */,
+			);
+			path = BTToast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96BCFCC1D925DB700D43325 /* BTToast.m in Sources */,
 				B96BCFB61D92378700D43325 /* ViewController.m in Sources */,
+				B96BCFC81D923ACE00D43325 /* HJAvatarBrowser.m in Sources */,
 				B96BCFB31D92378700D43325 /* AppDelegate.m in Sources */,
 				B96BCFB01D92378700D43325 /* main.m in Sources */,
 			);
@@ -300,6 +328,7 @@
 				B96BCFC41D92378700D43325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
