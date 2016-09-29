@@ -15,6 +15,7 @@
 		B96BCFBE1D92378700D43325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96BCFBC1D92378700D43325 /* LaunchScreen.storyboard */; };
 		B96BCFC81D923ACE00D43325 /* HJAvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B96BCFC71D923ACE00D43325 /* HJAvatarBrowser.m */; };
 		B96BCFCC1D925DB700D43325 /* BTToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B96BCFCB1D925DB700D43325 /* BTToast.m */; };
+		B9ECDAE01D9CB6E50038B0B0 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ECDADF1D9CB6E50038B0B0 /* UITabBar+badge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		B96BCFC71D923ACE00D43325 /* HJAvatarBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJAvatarBrowser.m; sourceTree = "<group>"; };
 		B96BCFCA1D925DB700D43325 /* BTToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTToast.h; sourceTree = "<group>"; };
 		B96BCFCB1D925DB700D43325 /* BTToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTToast.m; sourceTree = "<group>"; };
+		B9ECDADE1D9CB6E50038B0B0 /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+badge.h"; sourceTree = "<group>"; };
+		B9ECDADF1D9CB6E50038B0B0 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+badge.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,7 @@
 		B96BCFA21D92378700D43325 = {
 			isa = PBXGroup;
 			children = (
+				B9ECDADD1D9CB6C60038B0B0 /* Categories */,
 				B96BCFC91D925DAC00D43325 /* BTToast */,
 				B96BCFC51D923ACE00D43325 /* HJAvatarBrowser */,
 				B96BCFAD1D92378700D43325 /* ProgramCode */,
@@ -103,6 +107,15 @@
 				B96BCFCB1D925DB700D43325 /* BTToast.m */,
 			);
 			path = BTToast;
+			sourceTree = "<group>";
+		};
+		B9ECDADD1D9CB6C60038B0B0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B9ECDADE1D9CB6E50038B0B0 /* UITabBar+badge.h */,
+				B9ECDADF1D9CB6E50038B0B0 /* UITabBar+badge.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +191,7 @@
 				B96BCFCC1D925DB700D43325 /* BTToast.m in Sources */,
 				B96BCFB61D92378700D43325 /* ViewController.m in Sources */,
 				B96BCFC81D923ACE00D43325 /* HJAvatarBrowser.m in Sources */,
+				B9ECDAE01D9CB6E50038B0B0 /* UITabBar+badge.m in Sources */,
 				B96BCFB31D92378700D43325 /* AppDelegate.m in Sources */,
 				B96BCFB01D92378700D43325 /* main.m in Sources */,
 			);
