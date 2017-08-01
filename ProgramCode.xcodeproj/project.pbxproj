@@ -15,6 +15,7 @@
 		B96BCFBE1D92378700D43325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96BCFBC1D92378700D43325 /* LaunchScreen.storyboard */; };
 		B96BCFC81D923ACE00D43325 /* HJAvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B96BCFC71D923ACE00D43325 /* HJAvatarBrowser.m */; };
 		B96BCFCC1D925DB700D43325 /* BTToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B96BCFCB1D925DB700D43325 /* BTToast.m */; };
+		B9B7854C1F3091C800178F96 /* HJLazyArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B7854B1F3091C800178F96 /* HJLazyArray.m */; };
 		B9ECDAE01D9CB6E50038B0B0 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ECDADF1D9CB6E50038B0B0 /* UITabBar+badge.m */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,8 @@
 		B96BCFC71D923ACE00D43325 /* HJAvatarBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJAvatarBrowser.m; sourceTree = "<group>"; };
 		B96BCFCA1D925DB700D43325 /* BTToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTToast.h; sourceTree = "<group>"; };
 		B96BCFCB1D925DB700D43325 /* BTToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTToast.m; sourceTree = "<group>"; };
+		B9B7854A1F3091C800178F96 /* HJLazyArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJLazyArray.h; sourceTree = "<group>"; };
+		B9B7854B1F3091C800178F96 /* HJLazyArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJLazyArray.m; sourceTree = "<group>"; };
 		B9ECDADE1D9CB6E50038B0B0 /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+badge.h"; sourceTree = "<group>"; };
 		B9ECDADF1D9CB6E50038B0B0 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+badge.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,6 +54,7 @@
 		B96BCFA21D92378700D43325 = {
 			isa = PBXGroup;
 			children = (
+				B9B785491F30918700178F96 /* Overrides */,
 				B9ECDADD1D9CB6C60038B0B0 /* Categories */,
 				B96BCFC91D925DAC00D43325 /* BTToast */,
 				B96BCFC51D923ACE00D43325 /* HJAvatarBrowser */,
@@ -107,6 +111,15 @@
 				B96BCFCB1D925DB700D43325 /* BTToast.m */,
 			);
 			path = BTToast;
+			sourceTree = "<group>";
+		};
+		B9B785491F30918700178F96 /* Overrides */ = {
+			isa = PBXGroup;
+			children = (
+				B9B7854A1F3091C800178F96 /* HJLazyArray.h */,
+				B9B7854B1F3091C800178F96 /* HJLazyArray.m */,
+			);
+			path = Overrides;
 			sourceTree = "<group>";
 		};
 		B9ECDADD1D9CB6C60038B0B0 /* Categories */ = {
@@ -191,6 +204,7 @@
 				B96BCFCC1D925DB700D43325 /* BTToast.m in Sources */,
 				B96BCFB61D92378700D43325 /* ViewController.m in Sources */,
 				B96BCFC81D923ACE00D43325 /* HJAvatarBrowser.m in Sources */,
+				B9B7854C1F3091C800178F96 /* HJLazyArray.m in Sources */,
 				B9ECDAE01D9CB6E50038B0B0 /* UITabBar+badge.m in Sources */,
 				B96BCFB31D92378700D43325 /* AppDelegate.m in Sources */,
 				B96BCFB01D92378700D43325 /* main.m in Sources */,
@@ -307,7 +321,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProgramCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.paomazhe.ProgramCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmz.ProgramCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -318,7 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProgramCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.paomazhe.ProgramCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmz.ProgramCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

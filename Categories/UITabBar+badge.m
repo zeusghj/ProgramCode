@@ -23,7 +23,7 @@
     labNum.tag = 888 + index;
     labNum.layer.cornerRadius = 20/2;  //圆形
     labNum.layer.masksToBounds = YES;
-    labNum.backgroundColor = RGBCOLOR(253, 105, 140, 1);
+    labNum.backgroundColor = [UIColor colorWithRed:253/255.0f green:105/255.0f blue:140/255.0f alpha:1];
     
     CGRect tabFrame = self.frame;
     //确定小红点的位置
