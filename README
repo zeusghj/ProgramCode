@@ -8,3 +8,8 @@
 /**
  * 类似android的toast效果
  */
+
+3、HJLazyArray
+/**
+ * 惰性计算数组
+ */
